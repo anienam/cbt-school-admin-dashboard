@@ -183,3 +183,11 @@ function showNotification(message) {
 
   console.log(message);
 }
+
+// Event listener for the "Edit Details" button
+
+const aboutBtn = document.getElementById("aboutBtn");
+
+aboutBtn.addEventListener("click", () => {
+  window.location.href = "./edit-school-details.html";
+});

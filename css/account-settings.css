@@ -21,7 +21,7 @@ PAGE LAYOUT
 .page-header h1 {
   margin: 0;
 
-  font-size: 34px;
+  font-size: 1.375rem;
 
   font-weight: 800;
 
@@ -69,13 +69,15 @@ SETTINGS CARD
 .card-header h2 {
   margin: 0;
 
-  font-size: 13px;
+  font-size: 0.688rem;
 
   font-weight: 700;
 
   letter-spacing: 0.14em;
 
   color: #6a9d6e;
+
+  text-wrap: nowrap;
 }
 
 .divider {
@@ -269,6 +271,19 @@ BUTTONS
 SCHOOL LOGO
 ==============================================================*/
 
+/* .logo-updated {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.logo-updated-span {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+} */
+
 .logo-preview {
   display: flex;
 
@@ -316,7 +331,9 @@ SCHOOL LOGO
 }
 
 .logo-preview__details {
+  flex-direction: row;
   flex: 1;
+  gap: 1rem;
 }
 
 .logo-preview__details h3 {
@@ -339,10 +356,6 @@ SCHOOL LOGO
   display: flex;
 
   align-items: center;
-
-  flex-wrap: wrap;
-
-  gap: 8px;
 }
 
 .dot {

@@ -21,7 +21,7 @@ PAGE LAYOUT
 .page-header h1 {
   margin: 0;
 
-  font-size: 34px;
+  font-size: 1.375rem;
 
   font-weight: 800;
 
@@ -119,7 +119,7 @@ PROFILE DETAILS
 .principal-details h2 {
   margin: 0;
 
-  font-size: 30px;
+  font-size: 1.125rem;
 
   font-weight: 700;
 
@@ -225,13 +225,14 @@ CARD HEADER
 .card-header h3 {
   margin: 0;
 
-  font-size: 13px;
+  font-size: 0.688rem;
 
   font-weight: 700;
 
   letter-spacing: 0.14em;
 
   color: #6a9d6e;
+  text-wrap: nowrap;
 }
 
 .divider {
@@ -306,6 +307,7 @@ SHARED FORM LAYOUT
   display: flex;
 
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .form-group label {
